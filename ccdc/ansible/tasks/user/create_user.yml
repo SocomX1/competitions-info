@@ -1,8 +1,7 @@
-- name: Ensure sudo and rsync are installed
+- name: Ensure sudo is installed
   package:
     name:
       - sudo
-      - rsync
     state: present
 
 - name: Ensure group exists
